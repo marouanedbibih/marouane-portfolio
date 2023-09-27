@@ -1,7 +1,18 @@
 import React, { useState } from "react";
 import "./Header.css";
 const Header = () => {
-    const [Toggle,showMenu]=useState(false);
+  const [Toggle, showMenu] = useState(false);
+  document.addEventListener("click", (event) => {
+    if (Toggle === true) {
+      const menu = document.querySelector(".show-menu");
+      if (menu && menu.contains(event.target)) {
+        // Click was inside the .show-menu element
+        showMenu(false);
+      }
+    }
+  });
+  console.log(Toggle);
+
   return (
     <header className="header">
       <nav className="nav container">
@@ -47,10 +58,20 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <i class="uil uil-times nav__close" onClick={()=>{showMenu(!Toggle)}} ></i>
+          <i
+            className="uil uil-times nav__close"
+            onClick={() => {
+              showMenu(!Toggle);
+            }}
+          ></i>
         </div>
-        <div className="nav__toggle" onClick={()=>{showMenu(!Toggle)}}>
-            <i className="uil uil-apps"></i>
+        <div
+          className="nav__toggle"
+          onClick={() => {
+            showMenu(!Toggle);
+          }}
+        >
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>
