@@ -217,8 +217,4 @@ img {
   }
 }
 
-.bg-home {
-  background-image: url('./assets/leone-venter-VieM9BdZKFo-unsplash.jpg'); /* Replace 'path/to/your-image.jpg' with the actual image file path */
-  background-size: cover; /* Adjust how the background image is sized */
-  background-position: center; /* Adjust the position of the background image */
-}
+

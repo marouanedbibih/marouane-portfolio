@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Social from "./Social";
 import Data from "./Data";
+import Scrolldown from "./Scrolldown";
 
 function Home() {
   return (
@@ -10,10 +11,10 @@ function Home() {
         <div className="home__content grid">
           <Social/>
           <div className="home__img">
-            {/* <h1>Image</h1> */}
           </div>
           <Data/>
         </div>
+        <Scrolldown/>
       </div>
     </section>
   );

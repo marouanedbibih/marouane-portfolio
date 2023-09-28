@@ -6,7 +6,7 @@ import Home from "./components/home/Home";
 function App() {
   return (
     <div>
-      <div className="bg-home">
+      <div className="">
         <Header />
         <main className="main">
           <Home />
