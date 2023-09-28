@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import Info from "./Info";
 import AboutImg from "../../assets/profile.jpg";
-import CV from "../../assets/Cv.pdf";
+import CV from "../../assets/Marouane-Dbibih-CV.pdf";
 
 function About() {
   return (
