@@ -9,7 +9,7 @@ function Data() {
       </h1>
       <h1 className="home__subtitle">Full Stack Developer</h1>
       <p className="home__description">
-        I am a creative developer, and I can provide you with digital solutions
+        I am a creative developer,I can provide you with digital solutions
         to enhance your business.
       </p>
       <a href="#contact" className="button button--flex">
