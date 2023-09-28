@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState }  from "react";
 import "./Home.css";
 import Social from "./Social";
 import Data from "./Data";
@@ -9,12 +9,11 @@ function Home() {
     <section className="home section" id="home">
       <div className="home__container container grid">
         <div className="home__content grid">
-          <Social/>
-          <div className="home__img">
-          </div>
-          <Data/>
+          <Social />
+          <div className="home__img"></div>
+          <Data  />
         </div>
-        <Scrolldown/>
+        <Scrolldown />
       </div>
     </section>
   );
