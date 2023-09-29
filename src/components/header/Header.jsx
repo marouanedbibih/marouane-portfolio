@@ -11,7 +11,6 @@ const Header = () => {
       }
     }
   });
-  console.log(Toggle);
 
   return (
     <header className="header">
