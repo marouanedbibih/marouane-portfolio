@@ -1,0 +1,178 @@
+[
+    {
+        "category": "Frontend",
+        "skills": [
+            {
+                "skill": "HTML",
+                "level": "Expert"
+            },
+            {
+                "skill": "CSS",
+                "level": "Expert"
+            },
+            {
+                "skill": "JavaScript",
+                "level": "Expert"
+            },
+            {
+                "skill": "React JS",
+                "level": "Proficient"
+            },
+            {
+                "skill": "Bootstrap",
+                "level": "Proficient"
+            },
+            {
+                "skill": "Tailwind",
+                "level": "Proficient"
+            },
+            {
+                "skill": "SASS",
+                "level": "Advanced"
+            }
+        ]
+    },
+    {
+        "category": "Backend",
+        "skills": [
+            {
+                "skill": "PHP",
+                "level": "Expert"
+            },
+            {
+                "skill": "C",
+                "level": "Advanced"
+            },
+            {
+                "skill": "C++",
+                "level": "Proficient"
+            },
+            {
+                "skill": "Python",
+                "level": "Expert"
+            },
+            {
+                "skill": "Laravel",
+                "level": "Expert"
+            },
+            {
+                "skill": "Django",
+                "level": "Advanced"
+            },
+            {
+                "skill": "Shell Script",
+                "level": "Proficient"
+            }
+        ]
+    },
+    {
+        "category": "DataBase",
+        "skills": [
+            {
+                "skill": "SQL",
+                "level": "Expert"
+            },
+            {
+                "skill": "T-SQL",
+                "level": "Expert"
+            },
+            {
+                "skill": "MySQL",
+                "level": "Expert"
+            },
+            {
+                "skill": "SQLite",
+                "level": "Expert"
+            },
+            {
+                "skill": "Microsoft SQL Server",
+                "level": "Proficient"
+            },
+            {
+                "skill": "Oracle",
+                "level": "Proficient"
+            }
+        ]
+    },
+    {
+        "category": "Operating System",
+        "skills": [
+            {
+                "skill": "Windows",
+                "level": "Proficient"
+            },
+            {
+                "skill": "Linux",
+                "level": "Expert"
+            },
+            {
+                "skill": "Ubuntu",
+                "level": "Expert"
+            },
+            {
+                "skill": "Kali Linux",
+                "level": "Proficient"
+            },
+            {
+                "skill": "Android",
+                "level": "Expert"
+            },
+            {
+                "skill": "IOS",
+                "level": "Expert"
+            },
+            {
+                "skill": "MAC OS",
+                "level": "Proficient"
+            }
+        ]
+    },
+    {
+        "category": "Server",
+        "skills": [
+            {
+                "skill": "Apache",
+                "level": "Advanced"
+            },
+            {
+                "skill": "Nginx",
+                "level": "Proficient"
+            }
+        ]
+    },
+    {
+        "category": "Desktop Software",
+        "skills": [
+            {
+                "skill": "C++",
+                "level": "Proficient"
+            },
+            {
+                "skill": "QT",
+                "level": "Proficient"
+            }
+        ]
+    },
+    {
+        "category": "CMS",
+        "skills": [
+            {
+                "skill": "Wordpress",
+                "level": "Proficient"
+            }
+        ]
+    },
+    {
+        "category": "Modeling",
+        "skills": [
+            {
+                "skill": "Mersie",
+                "level": "Expert"
+            },
+            {
+                "skill": "UML",
+                "level": "Expert"
+            }
+        ]
+    }
+]
