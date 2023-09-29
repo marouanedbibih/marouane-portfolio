@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Web Development",
+        "icon":"brackets-curly",
+        "description": "We specialize in creating custom websites and web applications that cater to your unique needs.",
+        "subservices": [
+            "Custom Website Development",
+            "E-commerce Solutions",
+            "Content Management Systems (CMS)",
+            "Web Application Development",
+            "Website Maintenance and Updates",
+            "Mobile Web Apps"
+        ]
+    }
+    ,
+    {
+        "name": "DevOps",
+        "icon":"cloud",
+        "description": "Our DevOps experts streamline your development and deployment processes.",
+        "subservices": [
+            "Continuous Integration (CI) and Continuous Deployment (CD)",
+            "Infrastructure as Code (IaC)",
+            "Containerization and rchestration",
+            "Automated Testing",
+            "Monitoring and Logging",
+            "Cloud Adoption and Migration"
+        ]
+    },
+    {
+        "name": "Web Design",
+        "icon":"window-grid",
+        "description": "We focus on crafting captivating user interfaces (UI) and seamless user experiences (UX). Our designs are responsive, accessible, and aligned with your brand's identity.",
+        "subservices": [
+            "UI/UX Desing",
+            "Wireframing and Prototyping",
+            "Responsive Design",
+            "Typography and Color Schemes",
+            "Graphic Design",
+            "Design Systems"
+        ]
+    },
+    {
+        "name": "Consulting and Training",
+        "icon":"book-open",
+        "description": "Our consulting services provide strategic guidance, while our training programs empower your teams with the latest skills and knowledge in web development, DevOps, and design.",
+        "subservices": [
+            "Technology Consultation",
+            "DevOps Training",
+            "Code Reviews and Best Practices",
+            "Performance Audits",
+            "Digital Strategy",
+            "Team Training and Upskilling"
+        ]
+    }
+
+]
