@@ -23,9 +23,11 @@ jobs:
         with:
           submodules: true
           
-      - name: Install Dependencies
+      - name: Install Swiper
         run: npm install swiper  # Add this step to install the 'swiper' package
+      - name: Install React Router DOM
         run: npm install react-router-dom # For install react-router-dom package
+        
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
