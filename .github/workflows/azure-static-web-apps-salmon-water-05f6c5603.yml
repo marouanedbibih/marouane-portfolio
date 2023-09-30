@@ -18,6 +18,9 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
+          
+      - name: Install Dependencies
+        run: npm install swiper  # Add this step to install the 'swiper' package
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
