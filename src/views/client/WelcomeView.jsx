@@ -5,6 +5,7 @@ import About from "../../components/about/About";
 import Skills from "../../components/skills/Skills";
 import Services from "../../components/services/Services";
 import Testimonial from "../../components/testimonials/Testimonial";
+import Contact from '../../components/contact/Contact';
 
 function WelcomeView() {
   return (
@@ -17,6 +18,7 @@ function WelcomeView() {
         <Skills />
         <Services />
         <Testimonial/>
+        <Contact/>
       </main>
     </div>
   </div>
