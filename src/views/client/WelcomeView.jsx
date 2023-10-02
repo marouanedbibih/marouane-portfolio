@@ -7,6 +7,7 @@ import Services from "../../components/services/Services";
 import Testimonial from "../../components/testimonials/Testimonial";
 import Contact from '../../components/contact/Contact';
 import Footer from '../../components/footer/Footer';
+import ScrollUp from '../../components/scrollup/ScrollUp';
 
 function WelcomeView() {
   return (
@@ -20,8 +21,9 @@ function WelcomeView() {
         <Services />
         <Testimonial/>
         <Contact/>
-        <Footer/>
       </main>
+      <Footer/>
+      <ScrollUp/>
     </div>
   </div>
   )
