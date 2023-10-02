@@ -16,6 +16,7 @@ function Contact() {
         "HC9jvNio21P7OM5Be"
       )
       e.target.reset();
+      
   };
   return (
     <section className="contact section" id="contact">
