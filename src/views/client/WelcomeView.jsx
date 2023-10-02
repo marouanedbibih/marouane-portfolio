@@ -6,6 +6,7 @@ import Skills from "../../components/skills/Skills";
 import Services from "../../components/services/Services";
 import Testimonial from "../../components/testimonials/Testimonial";
 import Contact from '../../components/contact/Contact';
+import Footer from '../../components/footer/Footer';
 
 function WelcomeView() {
   return (
@@ -19,6 +20,7 @@ function WelcomeView() {
         <Services />
         <Testimonial/>
         <Contact/>
+        <Footer/>
       </main>
     </div>
   </div>
